@@ -1,6 +1,6 @@
 const express=require('express');
 const router=express.Router();
-const {GenerateShortUrl,handleAnalytics}=require('../controllers/url')
+const {GenerateShortUrl}=require('../controllers/url')
 
 router.post('/',GenerateShortUrl);
 

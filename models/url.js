@@ -8,7 +8,6 @@ const urlSchema=mongoose.Schema({
     },
     redirectURL:{
         type:String,
-        required:true
     },
     visitHistory:[{
        timestamps:{
